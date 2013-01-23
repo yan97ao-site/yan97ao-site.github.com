@@ -1,0 +1,49 @@
+---
+comments: true
+date: 2012-06-19 22:15:17
+layout: post
+slug: lwn_20120607
+title: LWN 20120607
+wordpress_id: 166
+categories:
+- LWN
+tags:
+- lwn
+---
+
+# LWN.net Weekly Edition for June 7, 2012
+
+
+[LinuxCon Japan: Making kernel developers less grumpy](http://lwn.net/Articles/500443/)
+这个就算是maintainers的牢骚吧，GKH里面举的例子确实很夸张。这篇文章里面介绍了maintainers接受patch的一些规则，值得一看。
+
+[Backing up in trees with Obnam 1.0
+](http://lwn.net/Articles/500346/)一种快照式的备份工具
+
+[Fedora, secure boot, and an insecure future](http://lwn.net/Articles/500231/)
+开喷了，在fedora公布支持UEFI的计划之后，·有些人认为fedora是一种助纣为虐式的妥协。但是，如果真的所有硬件厂商都默认开启secure boot，我们又能怎么办呢？
+
+[Responsible disclosure in open source: The crypt() vulnerability](http://lwn.net/Articles/500444/)
+这个算是[Responsible disclosure](http://en.wikipedia.org/wiki/Responsible_disclosure)的一次极好的实例吧
+
+[The conclusion of the 3.5 merge window](http://lwn.net/Articles/500212/)
+/proc下，每个进程id的目录下多了一个children的文件，包含了他所有的子线程
+ext4加入了元数据校验
+API新加入了task_work_add()
+inode_operations中加入了update_time，旨在解决上次提到的btrfs和atime的问题
+
+[Generic red-black trees](http://lwn.net/Articles/500355/)
+讲了两种通用的rbtree比较算法，但是说实话，11个参数的函数实在让人头大……
+
+[Volatile ranges with fallocate()
+](http://lwn.net/Articles/500382/)一种类似ashmem的动态内存共享机制，可以使缓存大小更加灵活
+
+[A Gentoo x32 release candidate
+](http://lwn.net/Articles/500482/)x32 ABI支持的Gentoo，可以在64bit模式下使用32bit指针。说实话，这让我很羡慕
+
+[Geary: simple email, for now
+](http://lwn.net/Articles/500488/)说实话，我对这个项目非常感兴趣，虽然他使用vala而且heavily GNOME-based。但是我非常喜欢他的界面风格，可惜的是，AUR中的git版本正常编译后似乎不能正常使用。我过段时间自己编译试试
+
+
+
+

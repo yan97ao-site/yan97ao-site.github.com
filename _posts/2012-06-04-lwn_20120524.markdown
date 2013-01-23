@@ -1,0 +1,39 @@
+---
+comments: true
+date: 2012-06-04 15:38:34
+layout: post
+slug: lwn_20120524
+title: LWN 20120524
+wordpress_id: 141
+categories:
+- LWN
+tags:
+- lwn
+---
+
+我不是subscriber，所以你只能在这里看到旧文，因为这次lwn晚了一天，我又因为种种事情，所以才拖到了现在，好吧，让我们开始
+
+
+# LWN.net Weekly Edition for May 24, 2012
+
+
+[A look at Tizen 1.0 on the developer device
+](http://lwn.net/Articles/498307/)在Tizen开发者大会的最后一天，三星给与会者发了一批开发样机。这篇文章介绍了这个开发样机的硬件、软件和开发的情况。我非常感兴趣的是，虽然现在跑的是Xserver，但是Wayland的移植工作正在进行当中。
+
+[A uTouch architecture introduction
+](http://lwn.net/Articles/497905/)听说win8开始支持多点触摸了，这一点linux怎么会落后？而且凭借linux非常短的发布周期，只要有人开始关注相关领域就会有非常快的发展，我们拭目以待。不过这样在X11上面修修补补，或许我们应该把更多的目光转向Wayland。这篇文章主要讲的是多点触摸相关的技术要点和uTouch的层次架构。另外：我笔记本上一直在使用双指滚动，设置方法请参考[https://wiki.archlinux.org/index.php/Synaptics](https://wiki.archlinux.org/index.php/Synaptics)
+
+[Exploring options for the openSUSE security policy
+](http://lwn.net/Articles/498282/)来源于Linus几个月前在google+上面的一条吐槽，这个是在是没有办法的事情，每个人对于安全和便利的平衡点都是不一样的，找到一种对所有人在所有情况下都非常合适的策略，这完全是不可能的。有人提议在安装的时候选择用户类型、有人提议用PolKit软件包，有人提议用更加详细的权限管理规则，但是这些一切都无疑会大大增加管理系统的难度。这是一个所有面向不同应用的发行版本都需要解决的问题。
+
+[The 3.5 merge window opens
+](http://lwn.net/Articles/498116/)CoDel队列管理算法，NUMA调度器又重写了、能源察觉调度被剔除了，令牌环没了，NFC的支持，引脚控制系统等等……
+
+[Preparing for nonvolatile RAM
+](http://lwn.net/Articles/498283/)要准备好迎接非易失RAM，但是究竟这种NVM是应该作为memory呢，还是作为文件系统给用户使用呢？
+
+[Removing four bytes from the kernel ABI
+](http://lwn.net/Articles/498128/)一个暂时的变量引发的争论，我们时候该为保证兼容旧软件中的不合理设计而买单。
+
+[Moving on
+](http://lwn.net/Articles/498135/)第一个问题是，现在的发行版越来越大，一张CD已经装不下了，而很多老旧的机器又没有DVD Driver，好在这方面Arch做的非常不错，对我影响不大。第二个问题是，这次可能真的是时候考虑迁移到64bit系统的时候了。

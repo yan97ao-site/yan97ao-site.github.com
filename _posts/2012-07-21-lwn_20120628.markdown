@@ -1,0 +1,38 @@
+---
+comments: true
+date: 2012-07-21 16:54:29
+layout: post
+slug: lwn_20120628
+title: LWN 20120628
+wordpress_id: 218
+categories:
+- LWN
+tags:
+- lwn
+---
+
+# LWN.net Weekly Edition for June 28, 2012
+
+
+[LinuxCon Japan: The business of contribution](http://lwn.net/Articles/503439/)
+或许商业和开源并不冲突，一些企业也已经（试图）找到为开源项目贡献并从中获利的模式了
+
+[CloudLinux busted — twice](http://lwn.net/Articles/503615/)
+但是，你不能在私有模块里用欺骗的方式使用GPL Only函数
+
+[GNOME and input method integration](http://lwn.net/Articles/503320/)
+好吧，一群根本不用输入法的人要为我们CJK用户指定gnome下的输入法框架了，可是他们怎么会懂我们的心……
+
+[Ubuntu details its UEFI secure boot plans](http://lwn.net/Articles/503803/)
+windows8越来越近了，看起来ubuntu的方案更符合一点我的要求，但是同样存在许可证的一些问题。但是无论如何，**我希望保留能够在我自己的PC上，使用我自己编译内核的权利。**
+
+[Displaying QR codes for kernel crashes](http://lwn.net/Articles/503677/)
+每次kernel crash之后，oops信息总是太长以至于一屏之内显示不下。QR码确实可以包含更多信息，但是……并不是每个人手上都有能过识别QR码的设备
+
+[printk() problems](http://lwn.net/Articles/503430/)
+关于上次那个面向记录的记录系统的一点后续，日志系统中的buffer可能存在的一个问题
+
+[DNF, which may or may not replace Yum](http://lwn.net/Articles/503581/)
+关于包管理器，是在是不想再吐槽什么了。希望DNF能做的足够让我满意。
+
+

@@ -1,0 +1,38 @@
+---
+comments: true
+date: 2012-06-23 20:34:20
+layout: post
+slug: lwn_20120614
+title: LWN 20120614
+wordpress_id: 185
+categories:
+- LWN
+tags:
+- lwn
+---
+
+# LWN.net Weekly Edition for June 14, 2012
+
+
+[LinuxCon Japan: OpenRelief launches](http://lwn.net/Articles/501490/)
+一个用于灾后救援的采用全套开源软件的无人机，提到了各种实现的技术
+
+[On mocking](http://lwn.net/Articles/501670/)
+打不尽的口水仗啊……
+
+[The word-at-a-time interface](http://lwn.net/Articles/501492/)
+一套高度优化但是复杂的API，能够尽可能快的检测一个二进制数中0的个数和位置等等
+
+[LinuxCon Japan: One zImage to rule them all](http://lwn.net/Articles/501696/)
+一个非常棒的设想，我们用随便什么发行版本的linux都可以装在任何x86电脑上，不管那台机器配置是什么样的，上面都有什么硬件。但是为什么同样的事情在ARM平台上就行不通呢？终于有人着手去做点什么了。想想看，一个通用的zmage，可以作为内核在多种ARM平台上运行，这将为嵌入式行业带来多大的变化。但是我非常担忧的是，以现在ARM平台碎片化如此严重。真的能够在有生之年得到这样一个高质量的通用ARM内核么？
+
+[A big.LITTLE scheduler update](http://lwn.net/Articles/501501/)
+对于ARM厂商来说，把一个高功耗高性能的cpu和一个低功耗低性能的cpu放到一个硅片上就算提出解决方案了。但是对于OS这一层，怎么能完美用上这样诡异的新技术，是个大问题
+
+[Guacamayo media player distribution](http://lwn.net/Articles/501493/)
+通常的影音系统是在完整的发行版基础上安装各种必须的软件，但是这个发行版是在一个最小化的嵌入式系统上只安装必要的软件包。说实话，我非常喜欢这样的思路。有意思的是，他们似乎打算绕过X，直接在内核和OpenGL的层面直接渲染，或者是wayland
+
+[printerd modularizes Linux printing](http://lwn.net/Articles/501504/)
+一个现代化的打印后台
+
+

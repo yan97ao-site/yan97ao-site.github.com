@@ -1,0 +1,16 @@
+---
+comments: true
+date: 2011-04-17 11:24:24
+layout: post
+slug: mastory
+title: MaStory
+wordpress_id: 25
+categories:
+- N900
+tags:
+- MaStory
+- N900
+---
+
+这东西基本上就算是N900上相对来说最完美的wp客户端了
+![](http://blog.bigtao.info/wp-content/uploads/2011/04/Screenshot-20110417-112514.png)

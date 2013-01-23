@@ -1,0 +1,41 @@
+---
+comments: true
+date: 2012-07-06 11:05:53
+layout: post
+slug: lwn_20120621
+title: LWN 20120621
+wordpress_id: 205
+categories:
+- LWN
+tags:
+- lwn
+---
+
+# LWN.net Weekly Edition for June 21, 2012
+
+
+[LinuxCon Japan: Advice for new kernel hackers](http://lwn.net/Articles/502471/)
+The final two sessions at LinuxCon Japan were targeted at helping Asian developers become more involved in kernel development. 这句话太中听了，而且确实从最近的记录来看，确实有越来越多我们同胞的名字出现在lkml中。这篇文章非常有价值，讲了做了初学者应该怎么起步，应该怎么在邮件列表里立足的一些问题。
+
+[Supporting block I/O contexts](http://lwn.net/Articles/502472/)
+利用绘画特性优化block IO的性能，通常来说这种设备的顺序读写比随机读写 要快得多，通过这样会话（或者说上下文）的形式把读写操作组织起来，可以获得不错的性能提升，剩下的就是策略的问题了。
+
+[msync() and subtle behavioral tweaks](http://lwn.net/Articles/502612/)
+有些内核API并不是POSIX标准而是Developer自己的设计，也就没有标准可言，所以就是可能会变动的。但是有些时候，一些可能非常合理的变动也会损坏现有的一些写的不太合理的应用，所以，小心了。
+
+[Proposals for Kernel Summit discussions](http://lwn.net/Articles/502624/)
+这个算是今年Kernel Summit的预热吧，自从发现youtube如此变态之后，俺晚上不想看书的时间又有了新的消遣方式。要是想了解现在内核开发的热点，这样proposal的内容还是非常值得看的。
+
+[openSUSE rethinks its release process](http://lwn.net/Articles/502633/)
+之前也提到过，现在的发行版越来越臃肿，跳票现象也越来越严重，终于有人坐不住了！随着里程碑时间一天一天的迫近，但是待解决的问题还是那么多，也就所幸破罐子破摔了。但是现在软件包越来越多，相互之间的依赖和冲突也越来越复杂，使得这样的发行功能越来越难以保证质量。所以有人提议改成一年发布一次，有人提议转向滚动更新仓库，有人提出core周期发布其他包滚动。但是似乎很难找到更有效地解决办法，现在的大多数发行版都面临失控的危险。
+
+[Fedora 17 ARM GA Release](http://lwn.net/Articles/502571/)
+支持Beagleboard么？这个倒是非常好玩。其实我一直在期待arm平台上的通用操作系统，虽然这会让一大批国内的嵌入式工程师失业。
+
+[Calling for a new openSUSE development model](http://lwn.net/Articles/501993/)
+嗯，这是个问题
+
+[A survey of Linux audio plugins](http://lwn.net/Articles/502183/)
+Linux下几种音频插件的介绍
+
+

@@ -1,0 +1,58 @@
+---
+comments: true
+date: 2012-05-25 16:31:04
+layout: post
+slug: lwn_20120517
+title: LWN 20120517
+wordpress_id: 120
+categories:
+- LWN
+tags:
+- lwn
+---
+
+好吧，我不是subscriber，所以我看不到最新的文章
+另外从时间上看LWN似乎是每周四更新，同时我们就能看到上一周的内容了，所以不算很糟
+为了 能强迫自己每周都能抽出时间看LWN，所以我决定能留下点东西
+因为最近越来越感觉到英语是在是太重要了，也越来越能感觉到自由阅读英文资料的快乐了
+不过因为个人兴趣的原因，每周更新的文章我肯定会有所侧重的读
+并且肯定会有些内容我是看不懂的……
+
+开始这次的内容吧
+
+
+## LWN.net Weekly Edition for May 17, 2012
+
+
+[LGM: GIMP's new release, new über-core, and future
+](http://lwn.net/Articles/497132/)讲的是GIMP的新版本(2.9)和GEGL，早有吐槽说GNU的人需要一个图形库，然后就有了GIMP
+
+[Tasting the Ice Cream Sandwich
+](http://lwn.net/Articles/497125/)编辑自己试用ICS的一点想法
+
+[The end of the token ring era?
+](http://lwn.net/Articles/497397/)看样子，令牌环时代也已经远去了
+
+[User and group mount options for ext filesystems
+](http://lwn.net/Articles/497106/)针对ext文件系统组的user和group挂载选项
+之前的方式中，用ext族文件系统拷贝的时候会遇到UID/GID不匹配的问题，但是vfat又会遇到4G文件限制和符号链接丢失的问题
+从这篇文章中我们也可以看到一个patch从LKML到内核源码反复讨论的过程
+
+[Various tweaks to printk()
+](http://lwn.net/Articles/497218/)面向记录的printk系统
+
+[A bcache update
+](http://lwn.net/Articles/497024/)用小容量的SSD做块设备（硬盘）的cache，一种特殊的文件系统吧
+
+[Stable distributions and unstable software
+](http://lwn.net/Articles/497344/)讲的是一个相对稳定的发行版本该如何处理一些迭代非常迅速的软件包的问题。自从我接触了滚动更新之后就彻底告别了半年蛋疼一次的窘况，虽然arch的内核有些调试方面的问题，但是……我始终割舍不下滚动更新和aur。另外，在服务器领域还是应该使用那些LTS或设stable的发行版，慎重处理更新问题，但是要定期处理安全更新。
+
+[Debian Administrator's Handbook published -- and Freed
+](http://lwn.net/Articles/496797/)Debian管理员手册
+
+[Red Hat Celebrates 10 Years of Red Hat Enterprise Linux
+](http://lwn.net/Articles/497411/)RHEL十年了，时间过的真快
+
+
+
+事实证明……阅读速度还是有待提高，现在的问题是，如果不认真看，没有办法知道这篇文章是不是有价值继续读下去，但是认真看又有点太耗时间了。因为现在还不是很适应，没有办法做到浏览或者扫读英文资料，所以才会有这样的问题吧

@@ -1,0 +1,20 @@
+---
+comments: true
+date: 2011-04-17 09:20:57
+layout: post
+slug: n900
+title: N900
+wordpress_id: 18
+categories:
+- N900
+---
+
+Photos
+
+[![](http://blog.bigtao.info/wp-content/uploads/2011/04/20110417_001.jpg)](http://blog.bigtao.info/wp-content/uploads/2011/04/20110417_001.jpg)
+
+[![](http://blog.bigtao.info/wp-content/uploads/2011/04/20110417_002.jpg)](http://blog.bigtao.info/wp-content/uploads/2011/04/20110417_002.jpg)
+
+
+
+ps:wordpress的客户端貌似对中文输入法很不友好，这段话是在电脑上补上的

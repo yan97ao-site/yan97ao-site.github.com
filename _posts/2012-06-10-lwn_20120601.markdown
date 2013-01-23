@@ -1,0 +1,48 @@
+---
+comments: true
+date: 2012-06-10 11:20:58
+layout: post
+slug: lwn_20120601
+title: LWN 20120601
+wordpress_id: 156
+categories:
+- LWN
+tags:
+- lwn
+---
+
+# LWN.net Weekly Edition for June 1, 2012
+
+
+[Sizing up the ColorHug open source colorimeter
+](http://lwn.net/Articles/499231/)一个低成本、开源、基于linux的LCD颜色校准系统
+
+[Relicensing and rebasing LibreOffice
+](http://lwn.net/Articles/498898/)说实话，我对于这些版权的东西非常头疼，因为基本绕不明白……
+
+[SFC expands license compliance efforts
+](http://lwn.net/Articles/499125/)还是版权相关的内容，大致是SFC发起了对一些代码的去GPL化？
+
+[Implementing UEFI Secure Boot in Fedora
+](http://lwn.net/Articles/499411/)Fedora向M$妥协了，虽然只要$99就可以签发所有子产品，但是对于个人打包的发行版本呢？
+
+[klibc 2.0 released
+](http://lwn.net/Articles/499512/)按照文档的话，klibc是This is klibc, what is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entanglement, and portability, not speed.
+
+[Uprobes in 3.5
+](http://lwn.net/Articles/499190/)utrace错过了merge进入mainline的机会，不过它的一部分作为uprobe即将在3.5进入内核mainline
+这是一个用户空间的跟踪调试API，他为我们提供了在用户空间进入内核的一套机制
+
+[Atime and btrfs: a bad combination?
+](http://lwn.net/Articles/499293/)btrfs有个COW特性，不知道是不是为了配合SSD，总之这个特性和之前我接程度的NAND上文件系统非常像，就是改写文件的时候并不在原地改写，而是写入到一块新的地方以节省擦除的时间。本来这是个对延长闪存特性和提高效率非常有意义的特性，但是在*nix中一些操作会改变atime，比如tar或者grep操作。atime的本意是在上古时代帮助管理员清理硬盘提供参考的，但是现在由于atime改变需要重新写入文件，这造成了一定的性能损失。并且在snapshot的时候，这样每一次对atime的改写也会生成一个新的snapshot，非常讽刺的是，这个本来是帮助清理硬盘的特性现在可能会消耗大量的硬盘空间。而且非常让人抓狂的是，一个文件的读操作完全有可能返回一个"no space available"的错误……
+
+[Temporary files: RAM or disk?
+](http://lwn.net/Articles/499410/)关于/tmp是应该放到tam还是disk的问题
+
+[GCC Explorer - an interactive take on compilation
+](http://lwn.net/Articles/498564/)这是一个非常有意思的东西，他可以将你的C代码转化成用特定版本GCC和特定参数编译出来的汇编代码
+
+[systemd 183 released
+](http://lwn.net/Articles/499480/)systemd和udev合并到一起了
+
+
